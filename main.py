@@ -34,7 +34,7 @@ def append_to_csv(file_path, data):
 def main():
     """Fonction principale pour exécuter le formulaire et ajouter les données au CSV."""
     # Chemin du fichier CSV
-    file_path = 'information.csv'
+    file_path = '/home/ybousquet/projects/formulaire/information.csv'
     
     # Collecte des informations de l'utilisateur
     user_info = collect_user_info()
